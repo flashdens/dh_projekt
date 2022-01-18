@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="./styluwa.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAPIĄTk- Twój artysta na imprezę okolicznościową!</title>
+</head>
+
+<body>
+
+    <div class="pasek">
+        <a href="./glowna.html">ZAPIĄTk</a>
+        <a href="./galeria.html">Galeria</a>
+        <a href="#news">Cennik</a>
+        <a href="#bio">Biografia</a>
+        <a href="#home">ZAREZERWUJ!</a>
+
+    </div>
+
+    <h1>Zainteresowani niezapomnianą imprezą z ZAPIĄTkiem?</h1>
+
+    <h2>Zarezerwujcie termin już teraz!</h2>
+
+    <p>W celu kontaktu prosimy o wypełnienie formularza.</p>
+
+    <form method="POST" action="https://wierzba.wzks.uj.edu.pl/~escibisz/DH/test.php">
+
+        <label for="name">Imię:</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="surname">Nazwisko:</label><br>
+        <input type="text" name="surname" id="surname"><br>
+        <label for="gender">Płeć:</label><br>
+        <select name="gender">
+            <option value="n" selected="selected">-</option>
+            <option value="m">Mężczyzna</option>
+            <option value="f">Kobieta</option>
+            <option value="o">Inna</option>
+            <option value="d">Nie chcę podawać</option>
+        </select>
+        <p>Wiem, że płeć nie jest potrzebna, ale chciałem się pobawić listą rozwijaną</p><br>
+        <label for="address1">Adres dostawy - linijka 1.:</label><br>
+        <input type="text" name="address1" id="address1"><br>
+        <label for="address2">Adres dostawy - linijka 2.:</label><br>
+        <input type="text" name="address2" id="address2"><br>
+        <label for="email">Adres e-mail:</label><br>
+        <input type="text" name="name" id="email"><br>
+        <label for="phone">Nr telefonu:</label><br>
+        <input type="text" name="phone" id="phone"><br>
+        <label for="remark">Uwagi (opcjonalne):</label><br>
+        <input type="text" name="remark" id="remark"><br>
+        <p>Zakupem jakich pozycji byliby Państwo zainteresowani?</p>
+        <input type="checkbox" id="ksiazka1" name="ksiazka1" value="ksiazka1">
+        <label for="ksiazka1">"Programowanie w HTML - wstęp" - K. Wojtyła, 1978 - 21.37 zł</label><br>
+        <input type="checkbox" id="ksiazka2" name="ksiazka2" value="ksiazka2">
+        <label for="ksiazka2">"5 bibliotek CSS, które MUSISZ obczaić" - P. Łuszscz, 2002 - 25.00 zł</label><br>
+        <input type="checkbox" id="ksiazka3" name="ksiazka3" value="ksiazka3">
+        <label for="ksiazka3">"Dokąd nocą tupta jeż? Rzecz o przyszłości stron internetowych." - R. Kubica -
+            30.00
+            zł</label><br>
+        <button type="submit">Złóż zamówienie</button>
+    </form>
+
+</body>
+
+</html>

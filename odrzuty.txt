@@ -1,0 +1,75 @@
+https://youtu.be/CU3_ZG-lK6c
+https://youtu.be/7u1lrjzR_74
+https://youtu.be/3lWe2sKI4Xk
+https://youtu.be/PbPDZXihF-o
+https://youtu.be/5ptIg9NMR0w
+https://youtu.be/FDlynDTPzSU
+https://youtu.be/bGf5tZ9evMQ
+
+justify-content: flex-start
+flex-direction: row-reverse
+
+body{
+    font-family: sans-serif;
+}
+
+.flexbox-container{
+    padding: 5px;
+    background-color: red;
+    border: 1px solid black;
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+
+}
+
+.flexbox-containter div{
+    background-color: aqua;
+    padding: 20px;
+    margin: 3px;
+    border: 1px solid red;
+
+}
+
+ <!DOCTYPE html>
+ <head>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Zapiątk - Twój artysta na imprezę!</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styluwa.css">
+</head>
+<body>
+
+<div class="flex-container">
+        <div>
+            <h2>jeden</h2>
+            <p>rzygi sranie</p>
+        </div>
+
+    <div>
+        <h2>dwa</h2>
+        <p>rzygi sranie</p>
+    </div>
+
+    <div>
+        <h2>trzy</h2>
+        <p>rzygi sranie</p>
+    </div>
+
+    <div>
+        <h2>cztery</h2>
+        <p>rzygi sranie</p>
+    </div>
+
+    <div>
+        <h2>jpjec</h2>
+        <p>rzygi sranie</p>
+    </div>
+ </div>                              
+
+ 
+
+
+</body>
+</html> 
