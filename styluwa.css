@@ -1,3 +1,5 @@
+/* przepraszam za używanie wulgaryzów w klasach, nie mam już siły, żeby to zmieniać, początkowo miały być tylko nazwy robocze... */
+
 body{
 font-family: sans-serif;
 margin: 0;
@@ -8,7 +10,9 @@ text-align: center;
 }
 
 
-
+h1{
+  font-family: 'comic sans ms'
+}
 
 h2{
   color: black;
@@ -38,7 +42,7 @@ table{
 }
 
 .pasek a:hover {
-  background-color: purple;
+  background-color: #d6dfa64d;
   color: black;
 }
 
