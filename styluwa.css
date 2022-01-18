@@ -1,12 +1,20 @@
 body{
-background-color: gray;
 font-family: sans-serif;
 margin: 0;
 overflow-x: hidden;
+overflow-y: scroll;
+height: 97vmax;
+text-align: center;
 }
 
+
+
+
 h2{
-  color: red;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'comic sans ms';
 }
 
 table{
@@ -15,7 +23,7 @@ table{
 } 
 
 .pasek {
-  background-color: orange;
+  background-color: red;
   overflow: hidden;
   text-align: right;
 }
@@ -34,29 +42,28 @@ table{
   color: black;
 }
 
-.pasek a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
 td{
   height: 30vh;
   padding: 0;
   width: 30vw;
-  border: 1px solid red;
   box-sizing: border-box;
 
+}
+
+td:hover{
+background-color: #d6dfa64d;
 }
 
 
 .dupsko{
 overflow: hidden;
 position: relative;
+overflow-y: scroll;
 }
 
 .tlo{
-  opacity: 0.3;
-  position: absolute;
+  opacity: 0.65;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -72,4 +79,27 @@ position: relative;
   display: flex;
   align-items: center;
   flex-direction: column  ;
+}
+
+button{
+border-radius: 10px;
+font-family: 'comic sans ms';
+box-shadow: none;
+background-color: blanchedalmond;
+border: none;
+padding: 6px 10px;
+}
+
+button:hover{
+animation-name: piwo;
+background-color: gray;
+animation-duration: 3s;
+animation-fill-mode: backwards;
+}
+
+@keyframes piwo{
+from{transform: rotate(0deg);
+padding: 6px 10px}
+to{transform: rotate(360deg);
+padding: 6px 30px;}
 }
